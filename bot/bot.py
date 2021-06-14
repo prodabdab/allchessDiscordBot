@@ -9,7 +9,7 @@ import random
 
 
 load_dotenv()
-TOKEN = os.getenv('DISCORD_TOKEN')
+TOKEN = os.getenv('ODUyNzgyMjM1ODIwMzU5NzEy.YML1WA.51B3RQWFJFWIWA_LwXm3b2mzDms')
 
 client = discord.Client()
 
@@ -279,4 +279,4 @@ async def on_message(message):
         await message.channel.send(response)
 
 
-client.run('ODUyNzgyMjM1ODIwMzU5NzEy.YML1WA.VH61Dpf6k9B9tSDY-rYMjC7g1OI')
+client.run('TOKEN')
